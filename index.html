@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Кыргызы в X–XII вв. и Караханидская эпоха</title>
+<style>
+:root{--bg:#f4ecd8;--paper:#fbf6e8;--ink:#2b2118;--teal:#0e6e6e;--indigo:#24366b;--ochre:#b8741a;--line:#d8c9a6;--muted:#6f6350}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 Georgia,"Times New Roman",serif}
+header{text-align:center;padding:70px 18px 50px;color:#fff;background:
+ linear-gradient(135deg,#0e6e6ee6,#24366bee),
+ repeating-linear-gradient(45deg,#fff1 0 12px,#0000 12px 24px);position:relative}
+header:after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:14px;background:repeating-linear-gradient(90deg,var(--ochre) 0 14px,var(--bg) 14px 28px);opacity:.9}
+.star{width:84px;height:84px;margin:0 auto 8px;animation:spin 40s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+h1{font-size:clamp(1.8rem,5.5vw,3.2rem);margin:.2em 0}
+.sub{max-width:660px;margin:0 auto;opacity:.9;font-style:italic}
+nav{position:sticky;top:0;z-index:30;background:var(--paper);border-bottom:1px solid var(--line);display:flex;flex-wrap:wrap;gap:4px;justify-content:center;padding:8px}
+nav a{color:var(--indigo);text-decoration:none;padding:6px 14px;border-radius:20px;font-size:.92rem}
+nav a:hover{background:var(--teal);color:#fff}
+section{max-width:940px;margin:0 auto;padding:54px 16px}
+h2{color:var(--indigo);font-size:1.8rem;margin-bottom:6px}
+h2+p{color:var(--muted);margin-top:0}
+h2:after{content:"";display:block;width:90px;height:4px;margin-top:8px;background:var(--ochre);border-radius:2px}
+details{background:var(--paper);border:1px solid var(--line);border-radius:10px;margin:12px 0;box-shadow:0 2px 0 var(--line)}
+details[open]{border-color:var(--teal)}
+summary{cursor:pointer;padding:14px 18px;font-weight:700;color:var(--indigo);list-style:none}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"▾";float:right;color:var(--ochre);transition:.2s}
+details[open] summary:after{transform:rotate(180deg)}
+.ans{padding:0 18px 16px}
+.ans p{margin:.5em 0}
+.tag{background:var(--teal);color:#fff;border-radius:4px;padding:1px 8px;font-size:.78rem;margin-right:6px}
+.note{font-size:.85rem;color:var(--muted);border-top:1px dashed var(--line);margin-top:10px;padding-top:8px}
+.tl{border-left:3px solid var(--teal);margin:20px 0 20px 14px;padding-left:22px}
+.ev{position:relative;margin-bottom:22px;cursor:pointer}
+.ev:before{content:"";position:absolute;left:-33px;top:6px;width:16px;height:16px;border-radius:50%;background:var(--paper);border:3px solid var(--ochre);transition:.2s}
+.ev:hover:before,.ev.on:before{background:var(--ochre)}
+.ev b{color:var(--teal);font-size:1.1rem}
+.ev div{max-height:0;overflow:hidden;transition:max-height .4s;color:#40352a}
+.ev.on div{max-height:300px}
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--paper)}
+table{border-collapse:collapse;width:100%;min-width:680px;font-size:.92rem}
+th{background:var(--indigo);color:#fff;padding:10px;text-align:left}
+td{padding:10px;border-top:1px solid var(--line);vertical-align:top}
+td:first-child{font-weight:700;color:var(--teal);width:16%}
+tr:hover td{background:#0e6e6e12}
+#game{background:var(--paper);border:2px solid var(--indigo);border-radius:14px;padding:22px}
+.meters{display:grid;gap:8px;margin-bottom:18px}
+.m{display:grid;grid-template-columns:150px 1fr;align-items:center;gap:10px;font-size:.85rem}
+.bar{height:10px;background:var(--line);border-radius:5px;overflow:hidden}
+.bar i{display:block;height:100%;width:0;transition:width .6s}
+.stp{color:var(--ochre);font-weight:700;font-size:.85rem;letter-spacing:.05em}
+.ch{display:block;width:100%;text-align:left;background:#fff;border:2px solid var(--line);border-radius:10px;padding:13px 15px;margin:10px 0;font:inherit;cursor:pointer;transition:.2s}
+.ch:hover{border-color:var(--teal);transform:translateY(-2px)}
+.out{background:#0e6e6e14;border-left:4px solid var(--teal);padding:10px 14px;margin:12px 0;border-radius:0 8px 8px 0}
+.btn{background:var(--indigo);color:#fff;border:0;border-radius:24px;padding:11px 24px;font:600 1rem Georgia,serif;cursor:pointer}
+.btn:hover{background:var(--ochre)}
+.fin{text-align:center}
+.fin h3{font-size:1.6rem;color:var(--teal);margin:.2em 0}
+footer{text-align:center;color:var(--muted);padding:36px 16px;font-size:.85rem;border-top:1px solid var(--line)}
+@media(max-width:600px){body{font-size:16px}.m{grid-template-columns:110px 1fr}}
+</style>
+</head>
+<body>
+<header>
+  <svg class="star" viewBox="0 0 100 100" fill="none" stroke="#fff" stroke-width="2.5"><rect x="22" y="22" width="56" height="56"/><rect x="22" y="22" width="56" height="56" transform="rotate(45 50 50)"/><circle cx="50" cy="50" r="12"/></svg>
+  <p style="letter-spacing:.3em;font-size:.8rem;text-transform:uppercase">Кыргызский авиационный институт им. И.Абдраимова</p>
+  <h1>Кыргызы между Ляо и Караханидами</h1>
+  <p class="sub">Тургунбаева Мундуз ВДо-1-25</p>
+</header>
+<nav><a href="#q">Вопросы</a><a href="#kid">Кидани</a><a href="#cmp">Сравнение</a><a href="#pr">Проблема</a><a href="#game">Игра</a></nav>
+
+<section id="q">
+  <h2>Вопросы и ответы</h2>
+  <p>Нажимай на вопрос, чтобы открыть ответ.</p>
+
+  <details><summary>1. Какое государство вытеснило кыргызов из Монголии?</summary><div class="ans">
+    <p>Киданьское государство <b>Ляо</b>, основанное вождём <b>Елюй Абаоцзи</b>. В 924–925 гг. кидани совершили поход в Монголию, дошли до Орхонской долины и закрепили там своё влияние. Кыргызы потеряли доступ к степи, и их «великодержавие» фактически завершилось. Центр остался в Саяно-Алтае.</p></div></details>
+
+  <details><summary>2. В каких мусульманских источниках XI–XII вв. есть сведения о кыргызах?</summary><div class="ans">
+    <p><span class="tag">X в.</span> «Худуд аль-алам» (ок. 982 г.), анонимная персидская география: описывает кыргызов и их земли.</p>
+    <p><span class="tag">XI в.</span> Гардизи, «Зайн аль-ахбар» (ок. 1050 г.): описание кыргызов, их обычаев и мускуса. Махмуд Кашгари, «Диван лугат ат-турк» (ок. 1072–1074 гг.): называет кыргызов среди тюркских племён.</p>
+    <p><span class="tag">XII в.</span> Шараф аз-Заман аль-Марвази (ок. 1120 г.), аль-Идриси (1154 г.): сведения о размещении кыргызов, нередко повторяющие более ранние источники.</p>
+    <p class="note">Многие описания опираются на предыдущую традицию, поэтому различай данные о Енисее и о Тянь-Шане.</p></div></details>
+
+  <details><summary>3. Какое государство доминировало на Тянь-Шане в XI–XII вв.?</summary><div class="ans">
+    <p><b>Караханидское государство</b> (Караханидский каганат, X в. – 1212 г.) со столицами в Баласагуне и Кашгаре, позднее и в Самарканде. Оно объединило карлуков, чигилей, ягма и другие тюркские племена. Кыргызские группы на Тянь-Шане и Алтае оказались в орбите его влияния, но не растворились в нём.</p></div></details>
+
+  <details><summary>4. Как изменилась карта Центральной Азии после экспансии Ляо?</summary><div class="ans">
+    <p>• Монголия и Маньчжурия оказались под контролем киданей, степь больше не была кыргызской.<br>
+    • Енисейские кыргызы отступили в Саяно-Алтай и частично оказались изолированы.<br>
+    • Уйгуры, ранее разгромленные кыргызами, консолидировались в Турфане и Ганьсу.<br>
+    • Степные племена Монголии (татары, кереиты, найманы и др.) заполнили вакуум.<br>
+    • Торговые пути сместились: сильнее стал западный коридор через Алтай и Семиречье к Караханидам.<br>
+    • В 1124 г. часть киданей во главе с Елюй Даши ушла на запад и создала державу Каракитаев.</p></div></details>
+
+  <details><summary>5. Научные гипотезы о появлении кыргызов на Тянь-Шане</summary><div class="ans">
+    <p><span class="tag">Переселенческая</span> Предки тянь-шаньских кыргызов пришли с Енисея. Сторонники расходятся в датировке: от IX–X вв. (после 840 г. и натиска киданей) до монгольской эпохи.</p>
+    <p><span class="tag">Автохтонная</span> Основа населения сложилась на месте из древних тюркских и более ранних групп, а название «кыргыз» могло закрепиться за местными племенами.</p>
+    <p><span class="tag">Этапная</span> Этногенез многослойный: местные племена + несколько волн переселенцев с Саяно-Алтая в разные эпохи (в связи с уйгурами, киданями, монголами). Эта схема сегодня считается наиболее гибкой.</p>
+    <p class="note">Конкретные имена исследователей и даты у каждой гипотезы уточняй по лекциям и учебнику.</p></div></details>
+
+  <details><summary>6. Взаимодействие кыргызов с карлуками, чигилями и ягма</summary><div class="ans">
+    <p>Карлуки, чигили и ягма составляли основу Караханидской племенной конфедерации. Кыргызы были соседями и частью периферии этого мира. Основные процессы:</p>
+    <p>• <b>Политические:</b> вассальные и союзные связи, участие в военных кампаниях.<br>
+    • <b>Хозяйственные:</b> обмен скота, мехов и железа на ткани и изделия городов.<br>
+    • <b>Языковые:</b> влияние карлукско-уйгурской литературной нормы при сохранении своей речи.<br>
+    • <b>Религиозные:</b> ислам распространялся с X в. среди элит и в городах, а кочевые группы дольше сохраняли тюркские культы.</p>
+    <p class="note">Степень вовлечённости оценивается по-разному; прямых данных немного.</p></div></details>
+</section>
+
+<section id="kid">
+  <h2>Историческая справка: кидани идут на запад</h2>
+  <div class="tl">
+    <div class="ev"><b>907 г. — Абаоцзи становится каганом киданей</b><div>Елюй Абаоцзи объединяет киданьские племена и начинает превращать племенной союз в государство.</div></div>
+    <div class="ev"><b>916 г. — провозглашение империи</b><div>Абаоцзи принимает императорский титул. Государство позже получает название Ляо и сочетает кочевое и китайское управление.</div></div>
+    <div class="ev"><b>924–925 гг. — поход в Монголию</b><div>Киданьские войска доходят до Орхонской долины, где ставят памятную надпись. Контроль над монгольской степью переходит к Ляо. Для кыргызов это конец гегемонии в Монголии.</div></div>
+    <div class="ev"><b>X–XI вв. — Ляо как гегемон степи</b><div>Кидани держат монгольские племена в зависимости. Енисейские кыргызы остаются в стороне, контакты с ними эпизодические. Кыргызы поддерживают связи с западным миром.</div></div>
+    <div class="ev"><b>1124 г. — Елюй Даши уходит на запад</b><div>После падения Ляо под ударами чжурчжэней Елюй Даши ведёт киданей через степи к Семиречью и Тянь-Шаню.</div></div>
+    <div class="ev"><b>1130-е гг. — Каракитайское государство</b><div>Кидани утверждаются на землях бывшего Караханидского мира. Караханиды и кыргызские племена оказываются в зоне их влияния.</div></div>
+    <div class="ev"><b>1141 г. — битва при Катване</b><div>Каракитаи разбивают войска сельджукского султана Санджара и караханидских союзников. Это окончательно меняет баланс сил в Средней Азии.</div></div>
+  </div>
+</section>
+
+<section id="cmp">
+  <h2>Материальная культура: Енисей и Тянь-Шань, XI–XII вв.</h2>
+  <div class="tw"><table>
+    <thead><tr><th>Сфера</th><th>Енисейские кыргызы</th><th>Тянь-Шань и Семиречье</th></tr></thead>
+    <tbody>
+    <tr><td>Хозяйство</td><td>Скотоводство, пашенное и поливное земледелие, охота, добыча и обработка железа</td><td>Отгонное скотоводство, оазисное земледелие, торговля на Шёлковом пути</td></tr>
+    <tr><td>Поселения</td><td>Сочетание кочевых стоянок и постоянных поселений в долинах Енисея</td><td>Юрты кочевников и городские центры (Баласагун, Тараз, Кашгар) с ремёслами</td></tr>
+    <tr><td>Погребальный обряд</td><td>Курганы и оградки, сохранение древних обычаев</td><td>В городах и среде знати распространяется мусульманский обряд (мазары)</td></tr>
+    <tr><td>Религия</td><td>Тенгрианство, культ предков, шаманизм, влияние соседних религий</td><td>Ислам (с X в.) при сохранении тюркских верований у кочевников</td></tr>
+    <tr><td>Письменность</td><td>Енисейские руны, постепенный отход от письменной традиции</td><td>Арабское и уйгурское письмо, литература («Кутадгу билиг», 1069–1070 гг.)</td></tr>
+    <tr><td>Ремесло и торговля</td><td>Железо, оружие, меха, мускус</td><td>Керамика, ткани, караханидская чеканка, обмен на караванных путях</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section id="pr">
+  <h2>Проблемный вопрос</h2>
+  <details open><summary>Почему енисейская и тянь-шаньская группы кыргызов разошлись к XII веку?</summary><div class="ans">
+    <p><b>Религиозный фактор.</b> На Тянь-Шане и в Семиречье рядом с Караханидами распространялся ислам. На Енисее сохранялись тюркские верования, и мусульманское влияние было слабым.</p>
+    <p><b>Хозяйственный фактор.</b> Енисейская группа жила земледелием, скотоводством и металлургией в изолированной котловине. Тянь-Шань был связан с караванной торговлей и городами.</p>
+    <p><b>Языковой фактор.</b> На разных землях складывались разные речевые нормы: на Тянь-Шане — под влиянием карлукско-уйгурской традиции и позднее кыпчакской среды, на Енисее — в саянской языковой среде.</p>
+    <p><b>Политический и географический фактор.</b> Ляо перекрыли путь через Монголию, а Караханиды и Каракитаи втянули тянь-шаньские племена в свою орбиту. Расстояние в тысячи километров закрепило разделение.</p>
+    <p class="note">Полной изоляции не было: память об общих корнях сохранилась в эпосе и родоплеменных преданиях.</p></div></details>
+</section>
+
+<section id="game">
+  <h2>Развилка судеб</h2>
+  <p>Ты вождь кыргызского рода в 924 году. Каждое решение сдвигает шкалы и определяет судьбу рода.</p>
+  <div id="game"></div>
+</section>
+
+<footer>Бишкек 2026 г.</footer>
+
+<script>
+const S=[
+{y:"924 г.",t:"Кидани Абаоцзи подходят к Орхону. Что делает твой род?",o:[
+ {a:"Отступить к родным Саянам, на Енисей",d:[2,0,1],r:"Так поступила основная часть кыргызов: центр остался в Саяно-Алтае."},
+ {a:"Откочевать на запад, к Алтаю и Тянь-Шаню",d:[-1,1,0],r:"Часть кыргызских групп уходила на запад, где оседала у границ Караханидов."}]},
+{y:"Середина X в.",t:"Какой торговый путь выбрать для рода?",o:[
+ {a:"Западный: через Алтай и Семиречье к городам",d:[0,2,0],r:"Западный коридор связывал кыргызов с рынками Средней Азии."},
+ {a:"Северо-восточный: менять железо на меха у Байкала",d:[2,0,0],r:"Енисейская модель: металлургия и меха, узкая связь с тайгой."}]},
+{y:"X–XI вв.",t:"Караханиды принимают ислам. Твоё решение?",o:[
+ {a:"Принять ислам ради союза с Караханидами",d:[-1,3,0],r:"Ислам укреплял связи с городами и элитой, но отдалял от енисейцев."},
+ {a:"Сохранить веру предков и культ Тенгри",d:[1,-1,0],r:"Сохраняется старая традиция, но связи с городами слабеют."}]},
+{y:"XII в.",t:"Приходят каракитаи. Как ты ответишь?",o:[
+ {a:"Признать власть Каракитаев и платить дань",d:[0,1,2],r:"Так действовали многие племена: сохранение земель ценой дани."},
+ {a:"Укрыться в горах и сохранить самостоятельность",d:[1,0,-1],r:"Горы помогали сохранить независимость, но ограничивали ресурсы."}]}
+];
+const g=document.getElementById("game");let st=0,v=[3,3,3];
+const L=[["Связь с Енисеем","#b8741a"],["Влияние Караханидов","#0e6e6e"],["Влияние Ляо и степи","#24366b"]];
+function meters(){return '<div class="meters">'+L.map((l,i)=>`<div class="m"><span>${l[0]}</span><div class="bar"><i style="width:${Math.max(4,Math.min(100,v[i]*12))}%;background:${l[1]}"></i></div></div>`).join("")+'</div>'}
+function show(){
+ if(st>=S.length){const e=v[0],k=v[1];
+ const res=e-k>=2?["Енисейская ветвь","Твой род остался в Саяно-Алтае и сохранил тюркские верования, земледелие и железоделательное ремесло. Так жили предки хакасов и других саянских тюрков."]:k-e>=2?["Тянь-шаньская ветвь","Твой род вошёл в орбиту Караханидов, принял городскую культуру и стал частью мира, из которого вышли тянь-шаньские кыргызы."]:["Алтайский перекрёсток","Твой род сохранил связи и с Енисеем, и с западом. Именно на таких перекрёстках, по этапной гипотезе, складывался многослойный этногенез кыргызов."];
+ g.innerHTML=meters()+`<div class="fin"><p class="stp">ФИНАЛ</p><h3>${res[0]}</h3><p>${res[1]}</p><button class="btn" onclick="st=0;v=[3,3,3];show()">Сыграть заново</button></div>`;return}
+ const s=S[st];
+ g.innerHTML=meters()+`<p class="stp">${s.y} · ШАГ ${st+1} ИЗ ${S.length}</p><h3 style="margin:.2em 0">${s.t}</h3>`+s.o.map((o,i)=>`<button class="ch" data-i="${i}">${o.a}</button>`).join("");
+ g.querySelectorAll(".ch").forEach(b=>b.onclick=()=>{
+  const o=s.o[+b.dataset.i];o.d.forEach((x,i)=>v[i]+=x);
+  g.innerHTML=meters()+`<p class="stp">${s.y}</p><div class="out"><b>${o.a}</b><br>${o.r}</div><button class="btn" id="nx">${st+1<S.length?"Дальше →":"Узнать судьбу"}</button>`;
+  document.getElementById("nx").onclick=()=>{st++;show()}})
+}
+show();
+document.querySelectorAll(".ev").forEach(e=>e.onclick=()=>e.classList.toggle("on"));
+</script>
+</body>
+</html>
